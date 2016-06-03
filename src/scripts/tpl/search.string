@@ -1,0 +1,27 @@
+<div class="m-search">
+
+  <header>
+    <ul>
+      <li class="yo-ico" action-type = "exit">&#xe643;</li>
+      <li>
+        <input type="text" name="name" value="" placeholder="搜索内容">
+      </li>
+      <li class="yo-ico m-search" action-type = "goto.search">&#xe627;</li>
+    </ul>
+  </header>
+  <section>
+    <div class="title">
+      热门搜索
+    </div>
+    <ul>
+      <li>创意</li>
+      <li>礼</li>
+      <li>男朋友</li>
+      <li>杯子</li>
+      <li>饰品</li>
+      <li>女朋友</li>
+      <li>巧克力</li>
+      <li>包包</li>
+    </ul>
+  </section>
+</div>

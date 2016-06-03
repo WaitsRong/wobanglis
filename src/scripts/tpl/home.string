@@ -1,0 +1,247 @@
+<header>
+  <ul>
+    <li></li>
+    <li>礼物攻略</li>
+    <li class="yo-ico m-search" action-type = "goto.search">&#xe627;</li>
+  </ul>
+</header>
+<nav id="index-nav">
+  <ul>
+    <li class="active" action-type="switch.swiper">
+      精品
+    </li>
+    <li action-type="switch.swiper">
+      男票
+    </li>
+    <li action-type="switch.swiper">
+      女票
+    </li>
+    <li action-type="switch.swiper">
+      妈妈
+    </li>
+    <li action-type="switch.swiper">
+      宝贝
+    </li>
+    <li action-type="switch.swiper">
+      爸爸
+    </li>
+    <li action-type="switch.swiper">
+      闺蜜
+    </li>
+  </ul>
+</nav>
+<section id="index-scroll" spa-widget="scroll">
+  <div class="swiper-container" id="index-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div>
+          <div class="swiper-container" id="banner-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./images/banner1.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/banner2.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/banner3.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/banner4.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/banner5.jpg" alt="" />
+                </div>
+              </div>
+              <!-- 如果需要分页器 -->
+              <div class="swiper-pagination"></div>
+            </div>
+          <div class="gift">
+            <ul>
+              <li>
+                <a href="javascript:;">
+                  <img src="./images/lidan.jpg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./images/lidan.jpg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./images/lidan.jpg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <img src="./images/lidan.jpg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="container">
+            <ul ms-repeat-value="livelist">
+              <li>
+                <a href="javascript:;">
+                  <i>
+                    <img ms-src="value[0].imgSrc" alt="" />
+                  </i>
+                  <b ms-text="value[0].title"></b>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <i>
+                    <img ms-src="value[1].imgSrc" alt="" />
+                  </i>
+                  <b ms-text="value[1].title"></b>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="container">
+            <ul ms-repeat-value="livelist">
+              <li>
+                <a href="javascript:;">
+                  <i>
+                    <img ms-src="value[0].imgSrc" alt="" />
+                  </i>
+                  <b ms-text="value[0].title"></b>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <i>
+                    <img ms-src="value[1].imgSrc" alt="" />
+                  </i>
+                  <b ms-text="value[1].title"></b>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="container">
+            <ul ms-repeat-value="livelist">
+              <li>
+                <a href="javascript:;">
+                  <i>
+                    <img ms-src="value[0].imgSrc" alt="" />
+                  </i>
+                  <b ms-text="value[0].title"></b>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <i>
+                    <img ms-src="value[1].imgSrc" alt="" />
+                  </i>
+                  <b ms-text="value[1].title"></b>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+      </div>
+      <div class="swiper-slide">
+      <div class="container">
+            <ul ms-repeat-value="livelist">
+              <li>
+                <a href="javascript:;">
+                  <i>
+                    <img ms-src="value[0].imgSrc" alt="" />
+                  </i>
+                  <b ms-text="value[0].title"></b>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <i>
+                    <img ms-src="value[1].imgSrc" alt="" />
+                  </i>
+                  <b ms-text="value[1].title"></b>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+      </div>
+      <div class="swiper-slide">
+      	<div class="container">
+            <ul ms-repeat-value="livelist">
+              <li>
+                <a href="javascript:;">
+                  <i>
+                    <img ms-src="value[0].imgSrc" alt="" />
+                  </i>
+                  <b ms-text="value[0].title"></b>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <i>
+                    <img ms-src="value[1].imgSrc" alt="" />
+                  </i>
+                  <b ms-text="value[1].title"></b>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+      </div>
+      <div class="swiper-slide">
+      <div class="container">
+            <ul ms-repeat-value="livelist">
+              <li>
+                <a href="javascript:;">
+                  <i>
+                    <img ms-src="value[0].imgSrc" alt="" />
+                  </i>
+                  <b ms-text="value[0].title"></b>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <i>
+                    <img ms-src="value[1].imgSrc" alt="" />
+                  </i>
+                  <b ms-text="value[1].title"></b>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+      </div>
+      <div class="swiper-slide">
+      <div class="container">
+            <ul ms-repeat-value="livelist">
+              <li>
+                <a href="javascript:;">
+                  <i>
+                    <img ms-src="value[0].imgSrc" alt="" />
+                  </i>
+                  <b ms-text="value[0].title"></b>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <i>
+                    <img ms-src="value[1].imgSrc" alt="" />
+                  </i>
+                  <b ms-text="value[1].title"></b>
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</section>

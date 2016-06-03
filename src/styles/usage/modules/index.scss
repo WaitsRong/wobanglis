@@ -1,0 +1,190 @@
+.m-index{
+  @include flexbox();
+  @include flex-direction(column);
+  width:100%;
+  height: 100%;
+  & > *{
+    width:100%;
+  }
+  .m-index-container{
+    @include flex();
+    width: 100%;
+    position:relative;
+    spa-view{
+      header{
+        width:100%;
+        background: #ff8252;
+        height:0.47rem;
+        ul{
+          width:100%;
+          height:100%;
+          @include flexbox();
+          li{
+            height:100%;
+            line-height: 0.47rem;
+            text-align: center;
+            color:#fff;
+            font-size: 0.24rem;
+            &:nth-child(1){
+              @include flex(1);
+            }
+            &:nth-child(2){
+              @include flex(6);
+            }
+            &:nth-child(3){
+              @include flex(1);
+              font-size: 0.18rem;
+            }
+          }
+        }
+      }
+      nav{
+        width:100%;
+        background:#fff;
+        height:0.37rem;
+        ul{
+          height:70%;
+          width:100%;
+          @include flexbox();
+          padding-top:0.13rem;
+          li{
+            height:0.14rem;
+            line-height: 0.12rem;
+            font-size: 14px;
+            color:#474747;
+            @include flex();
+            text-align: center;
+            border-right:1px solid #474747;
+            &.active{
+              color: $base-color !important;
+            }
+
+            &:last-child{
+              border:0;
+            }
+          }
+        }
+      }
+      section{
+        width:100%!important;
+        @include flex();
+        #index-swiper{
+          width:100%;
+          height:100%;
+          .swiper-container{
+            width:100%;
+            height:1.31rem;
+            @include border(1px 0 0 0,#b7aaa2);
+
+            img{
+              width:100%;
+              height:100%;
+            }
+          }
+          .gift{
+            width:100%;
+            height:0.83rem;
+            ul{
+              height: 100%;
+              width: 100%;
+              background: #fff;
+              @include flexbox();
+              li{
+                height:100%;
+                @include flex();
+                @include flexbox();
+                @include align-items(center);
+                @include justify-content(center);
+                img{
+                  width:0.74rem;
+                }
+              }
+            }
+          }
+          .container{
+            width:100%;
+            ul{
+              width:100%;
+              li{
+                width:100%;
+                a{
+                  width:100%;
+                  display: block;
+                  i, b {
+                    width:100%;
+                    display: block;
+                    font-weight: normal;
+                    @include border(1px 0,#b7aaa2);
+                  }
+                  i {
+                    img {
+                      width: 100%;
+                    }
+                  }
+                  b {
+                    font-size: 14px;
+                    color:#373737;
+                    text-align: center;
+                    background:#fff;
+                    padding:0.13rem 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  footer{
+    width:100%;
+    height:0.5rem;
+    background: #fafafa;
+    @include border(1px 0 0 0,#b7aaa2);
+    z-index: 9999;
+    ul{
+      height:100%;
+      width:100%;
+      @include flexbox();
+      li{
+        @include flex();
+        height:100%;
+        @include flexbox();
+        @include align-items(center);
+        @include justify-content(center);
+        @include flex-direction(column);
+        &.active b,
+        &.active i {
+          color: $base-color !important;
+        }
+        b, i {
+          display: block;
+          color: #9c9c9c;
+          font-weight: normal;
+          padding-top:0.08rem;
+        }
+        &:nth-child(3){
+          &.active i {
+            background: url('/wobanglis/images/tree2.jpg') no-repeat 0 0.06rem;
+          }
+          i{
+            width:0.24rem;
+            height:0.25rem;
+            background: url('/wobanglis/images/tree.jpg') no-repeat 0 0.06rem;
+          }
+          b{
+            padding-top:0;
+          }
+        }
+        i {
+          font-size: .24rem;
+          line-height: .18rem;
+          }
+
+        b {
+          font-size: .12rem;
+        }
+      }
+    }
+  }
+}
