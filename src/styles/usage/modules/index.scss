@@ -69,13 +69,15 @@
         width:100%!important;
         @include flex();
         #index-swiper{
+          padding-bottom: 1rem;
+          @include box-sizing(border-box);
           width:100%;
           height:100%;
+          position:absolute;
           .swiper-container{
             width:100%;
             height:1.31rem;
             @include border(1px 0 0 0,#b7aaa2);
-
             img{
               width:100%;
               height:100%;

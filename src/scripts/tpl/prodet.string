@@ -1,0 +1,53 @@
+<div id="m-prodet">
+  <header>
+    <ul>
+      <li class="yo-ico" style="font-size:24px;" action-type = "exit">&#xe643;</li>
+      <li>
+        商品详情
+      </li>
+      <li class="yo-ico m-search" style="font-size:24px;" action-type="switch.enjoy">&#xe622;</li>
+    </ul>
+  </header>
+  <section  spa-widget="scroll">
+    <div>
+      <div class="content">
+        <ul class="list">
+          <li>
+            <img src="/wobanglis/images/p1.jpg" alt="" />
+            <p>
+              <h6>简约创意钢木书架</h6>
+              <div class="left">
+                ￥230.5元
+
+                返232礼豆
+              </div>
+              <span>这款书架百搭设计，款式新颖又不缺乏个性元素；采用优质环保高温贴面，防烤漆效果，钢制采用优质不锈钢。很环保哦！</span>
+            </p>
+          </li>
+          <li><img src="/wobanglis/images/list1.jpg" alt="" /></li>
+          <li><img src="/wobanglis/images/list2.jpg" alt="" /></li>
+          <li><img src="/wobanglis/images/list3.jpg" alt="" /></li>
+          <li><img src="/wobanglis/images/list5.jpg" alt="" /></li>
+          <li><img src="/wobanglis/images/list6.jpg" alt="" /></li>
+          <li><img src="/wobanglis/images/list4.jpg" alt="" /></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <ul>
+      <li>
+        <i>添加喜爱</i>
+        <b class="heart"></b>
+      </li>
+      <li>
+        <p>去淘宝购买</p>
+      </li>
+      <li>
+        <i>添加心愿</i>
+        <b class="tree"></b>
+      </li>
+    </ul>
+  </footer>
+
+</div>

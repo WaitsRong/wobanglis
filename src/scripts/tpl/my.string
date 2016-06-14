@@ -1,3 +1,47 @@
-<div class="">
-  我的
+<div class="m-my">
+  <header>
+    <ul>
+      <li></li>
+      <li>用户</li>
+      <li style="font-size:24px;" class="yo-ico m-search" action-type = "goto.search">&#xe653;</li>
+    </ul>
+  </header>
+  <section>
+    <div class="self-head">
+
+    </div>
+    <div class="self-tab" id="self-tab">
+      <ul id="nav-ul">
+        <li action-type="tabChange" class="active">收藏</li>
+        <li action-type="tabChange">喜爱</li>
+        <li action-type="tabChange">设置</li>
+      </ul>
+    </div>
+    <div class="self-containt"   spa-widget="scroll">
+      <div class="self-font active">
+        暂无收藏内容
+      </div>
+      <div class="self-like">
+        暂无内容
+      </div>
+      <div class="set">
+        <ul>
+          <li>关于我们</li>
+          <li>关于我们</li>
+          <li>关于我们</li>
+        </ul>
+        <ul>
+          <li>关于我们</li>
+          <li>关于我们</li>
+        </ul>
+        <ul>
+          <li>关于我们</li>
+          <li>关于我们</li>
+        </ul>
+        <ul>
+          <li>关于我们</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </div>

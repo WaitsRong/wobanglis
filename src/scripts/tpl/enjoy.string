@@ -1,0 +1,45 @@
+<div class="enjoy">
+  <ul>
+    <li>
+      <img src="/wobanglis/images/sina.jpg" alt="" />
+      <p>
+        新浪微博
+      </p>
+    </li>
+    <li>
+      <img src="/wobanglis/images/kongjian.jpg" alt="" />
+      <p>
+        QQ空间
+      </p>
+    </li>
+    <li>
+      <img src="/wobanglis/images/weixin.jpg" alt="" />
+      <p>
+        微信
+      </p>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <img src="/wobanglis/images/weixinpengyou.jpg" alt="" />
+      <p>
+        微信朋友
+      </p>
+    </li>
+    <li>
+      <img src="/wobanglis/images/weixshoucang.jpg" alt="" />
+      <p>
+        微信收藏
+      </p>
+    </li>
+    <li>
+      <img src="/wobanglis/images/qq.jpg" alt="" />
+      <p>
+        QQ
+      </p>
+    </li>
+  </ul>
+  <div class="quxiao" action-type="colse">
+    取消
+  </div>
+</div>

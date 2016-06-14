@@ -8,6 +8,10 @@ require('./views/gonglv.js');
 require('./views/tree.js');
 require('./views/friends.js');
 require('./views/my.js');
+require('./views/detail.js');
+require('./views/prodet.js');
+require('./views/enjoy.js');
+require('./views/xuyuan.js');
 require('./views/index.js');
 
 

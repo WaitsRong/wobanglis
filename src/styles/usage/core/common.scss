@@ -5,5 +5,9 @@ $base-color: #ff8250;
 
 @font-face {
   font-family: yofont;
-  src: url("/wobanglis/images/icon/iconfont.woff") format("woff"), url("/footballSNS/images/icon/iconfont.ttf") format("truetype");
+  src: url("/wobanglis/images/icon/iconfont.woff") format("woff"), url("/wobanglis/images/icon/iconfont.ttf") format("truetype");
+}
+@font-face {
+  font-family: yofont;
+  src: url("/wobanglis/images/icon/iconfonts.woff") format("woff"), url("/wobanglis/images/icon/iconfonts.ttf") format("truetype");
 }

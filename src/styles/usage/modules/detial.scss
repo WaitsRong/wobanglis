@@ -1,0 +1,143 @@
+#m-detail{
+  width:100%;
+  height:100%;
+  @include flexbox();
+  @include flex-direction(column);
+  header{
+    width:100%;
+    background: #ff8252;
+    height:0.47rem;
+    ul{
+      width:100%;
+      height:100%;
+      @include flexbox();
+      li{
+        height:100%;
+        line-height: 0.47rem;
+        text-align: center;
+        color:#fff;
+        font-size: 0.24rem;
+        &:nth-child(1){
+          @include flex(1);
+        }
+        &:nth-child(2){
+          @include flex(5);
+          @include flexbox();
+          @include align-items(center);
+          @include justify-content(center);
+        }
+        &:nth-child(3){
+          @include flex(1);
+        }
+      }
+    }
+  }
+  section{
+    width:100%!important;
+    @include flex();
+    background: #fff;
+    .top{
+      width:100%;
+      img{
+        width:100%;
+      }
+    }
+    .content{
+      border:1px solid #d1d2ce;
+      width:90%;
+      padding:0 5%;
+      h5{
+        padding:0.25rem 0 0.05rem;
+        width:100%;
+        word-spacing: 0.08rem;
+      }
+      p{
+        width:100%;
+        padding:0.05rem 0;
+        line-height:0.32rem;
+        font-size: 0.12rem;
+        text-align:inherit;
+      }
+      .list{
+        width:100%;
+        padding:0.08rem 0;
+        li{
+          width:100%;
+          font-size: 0.12rem;
+          line-height:0.32rem;
+          p{
+            width:100%;
+            h6{
+              font-style: normal;
+            }
+          }
+          img{
+            display: block;
+            margin:auto;
+            width:100%;
+          }
+          div{
+            @include flexbox();
+            width:100%;
+            height:0.24rem;
+            padding:0.08rem 0;
+            line-height: 0.24rem;
+            color:$base-color;
+            font-size: 0.12rem;
+            .left{
+              @include flex(3);
+              line-height: 0.16rem;
+              i{
+                height:0.18rem;
+                width:0.18rem;
+                text-align: center;
+                line-height: 0.14rem;
+                border-radius: 50px;
+                border:1px solid $base-color;
+                margin:0 0.04rem 0 0.08rem;
+              }
+            }
+            .right{
+              @include flex(1);
+              @include flexbox();
+              @include align-items(center);
+              @include justify-content(center);
+              text-align: center;
+              color:#fff;
+              line-height: 0.18rem;
+              height:0.18rem;
+              width:100%;
+              margin:auto;
+              border-radius: 10px;
+              background:$base-color;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer{
+    width:100%;
+    height:0.47rem;
+    background:#f3f3f3;
+    ul{
+      width:100%;
+      height:100%;
+      @include flexbox();
+      li{
+        @include flex(1);
+        height:100%;
+        @include flexbox();
+        @include align-items(center);
+        @include justify-content(center);
+        i,b{
+          text-align: center;
+          font-size: 0.12rem;
+          color:#ff8155;
+          font-style: normal;
+          margin:0 0.02rem;
+        }
+      }
+    }
+  }
+}

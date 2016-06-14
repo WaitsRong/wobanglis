@@ -1,5 +1,7 @@
 .m-search{
   width:100%;
+  @include flexbox();
+  @include flex-direction(column);
   header{
     width:100%;
     background: #ff8252;
@@ -42,6 +44,7 @@
     }
   }
   section{
+    @include flex();
     width:100%;
     .title{
       width:100%;

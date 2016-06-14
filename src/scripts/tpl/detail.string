@@ -1,0 +1,58 @@
+<div id="m-detail">
+  <header>
+    <ul>
+      <li class="yo-ico" style="font-size:24px;" action-type = "exit">&#xe643;</li>
+      <li>
+        攻略详情
+      </li>
+      <li class="yo-ico m-search" style="font-size:24px;" action-type = "goto.search">&#xe622;</li>
+    </ul>
+  </header>
+  <section  spa-widget="scroll">
+    <div>
+      <div class="top">
+        <img src="/wobanglis/images/shujia.jpg" alt="" />
+      </div>
+      <div class="content">
+        <h5>【送自己】创意书架，帮你找回阅读的快乐</h5>
+        <p>
+          书房是一个整洁安静，修身养性的地方，小小的书架改变的不仅仅是居家环境，更多的改变是我对生活的态度，我始终相信阅读是一件惬意的事情。
+        </p>
+        <ul class="list">
+          <li>
+            <p>
+              <h6>1、简约创意钢木书架</h6>
+              <span>这款书架百搭设计，款式新颖又不缺乏个性元素；采用优质环保高温贴面，防烤漆效果，钢制采用优质不锈钢。很环保哦！</span>
+            </p>
+            <img src="/wobanglis/images/p1.jpg" alt="" />
+            <div>
+              <div class="left">
+                参考价格：
+                <span>230.5元</span>
+                <i>返</i>
+                232礼豆
+              </div>
+              <div class="right"action-type = "goto.prodet">
+                查看详情
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <ul>
+      <li>
+        <i>点赞</i>
+        <b class="yo-ico" style="font-size:0.14rem;">&#xe60f;</b>
+        <i>61</i>
+      </li>
+      <li>
+        <i>评论</i>
+        <b class="yo-ico" style="font-size:0.16rem;">&#xe605;</b>
+        <i>1</i>
+      </li>
+    </ul>
+  </footer>
+</div>

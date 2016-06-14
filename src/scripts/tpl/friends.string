@@ -1,3 +1,19 @@
-<div class="">
-  好友
+<div class="m-friends">
+  <header>
+    <ul>
+      <li>
+        好友
+      </li>
+    </ul>
+  </header>
+  <section>
+    <div class="title">
+      <i class="yo-ico">&#xe62a;</i>
+      <b>新的朋友</b>
+    </div>
+    <div class="container">
+      0位联系人
+    </div>
+  </section>
+  
 </div>

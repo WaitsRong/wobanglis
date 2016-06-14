@@ -1,0 +1,42 @@
+.enjoy{
+  background:#fff;
+  width:90%;
+  height:90%;
+  @include flex-direction(column);
+  padding:5%;
+  ul{
+    @include flex(2);
+    @include flexbox();
+    width:100%;
+    li{
+      @include flex();
+      @include flexbox();
+      @include flex-direction(column);
+      @include align-items(center);
+      @include justify-content(center);
+      height:100%;
+      padding:16px 5% 0;
+      img{
+        width:0.61rem;
+        display: block;
+      }
+      p{
+        display: block;
+        width:100%;
+        text-align: center;
+        font-size: 0.12rem;
+      }
+    }
+  }
+  .quxiao{
+    height:0.46rem;
+    line-height: 0.46rem;
+    margin-top:0.05rem;
+    width:100%;
+    border: 1px solid #e1e1e1;
+    color:$base-color;
+    font-size: 0.18rem;
+    border-radius: 3px;
+    text-align: center;
+  }
+}
